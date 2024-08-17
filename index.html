@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokédex</title>
+</head>
+
+<body>
+
+    <h1 id="app-name">Pokédex</h1>
+
+    <div class="app">
+        <form>
+            <input id="search-input" type="text" placeholder="Search Pokémon" autocomplete="off">
+            <button id="search-button">Search</button>
+        </form>
+
+        <div id="pokemon">
+            <p id="error"></p>
+            <p>
+                <span id="pokemon-name"></span>
+                <span id="pokemon-id"></span>
+            </p>
+            <br>
+            <p>
+                <span id="weight"></span>
+                <span id="height"></span>
+            </p>
+            <image id="pok-img"></image>
+            <p id="types">
+            </p>
+        </div>
+
+        <div id="pokemon-data">
+            <h3>Base</h3>
+            <h3>Stats</h3>
+            <p>HP:</p>
+            <p id="hp">0</p>
+            <p>Attack:</p>
+            <p id="attack">0</p>
+            <p>Defense</p>
+            <p id="defense">0</p>
+            <p>Sp. Attack</p>
+            <p id="special-attack">0</p>
+            <p>Sp. Defense</p>
+            <p id="special-defense">0</p>
+            <p>Speed</p>
+            <p id="speed">0</p>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
